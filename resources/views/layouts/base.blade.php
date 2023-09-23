@@ -36,7 +36,7 @@
 			<div class="top_contact-container">
 			<div class="tel_container">
 				<a href="">
-				<img src="{{ asset('assets/images/telephone-symbol-button.png') }}" alt=""> Call : +380 (95) 2926716
+				<img src="{{ asset('assets/images/telephone-symbol-button.png') }}" alt=""> Телефон : +380 (95) 2926716
 				</a>
 			</div>
 			<div class="social-container">
@@ -69,22 +69,19 @@
 				<div class="d-flex  flex-column flex-lg-row align-items-center w-100 justify-content-between">
 				<ul class="navbar-nav  ">
 					<li class="nav-item active">
-					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="/">Головна <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-					<a class="nav-link" href="about.html"> About </a>
+					<a class="nav-link" href="/about"> Про нас </a>
 					</li>
 					<li class="nav-item">
-					<a class="nav-link" href="medicine.html"> Medicine </a>
+					<a class="nav-link" href="/shop"> Каталог </a>
 					</li>
 					<li class="nav-item">
-					<a class="nav-link" href="buy.html"> Online Buy </a>
+					<a class="nav-link" href="/news"> Новини </a>
 					</li>
 					<li class="nav-item">
-					<a class="nav-link" href="news.html"> News </a>
-					</li>
-					<li class="nav-item">
-					<a class="nav-link" href="contact.html">Contact us</a>
+					<a class="nav-link" href="/contact">Контакти</a>
 					</li>
 				</ul>
 				<form class="form-inline ">
@@ -93,9 +90,9 @@
 				</form>
 				<div class="login_btn-contanier ml-0 ml-lg-5">
 					<a href="">
-					<img src="images/user.png" alt="">
+					<img src="{{ asset('assets/images/user.png') }}" alt="">
 					<span>
-						Login
+						Увійти
 					</span>
 					</a>
 				</div>
@@ -114,7 +111,7 @@
 			<div class="col-md-3">
 			<div class="info_contact">
 				<h4>
-				Contact
+				Контакти
 				</h4>
 				<div class="box">
 				<div class="img-box">
@@ -122,7 +119,7 @@
 				</div>
 				<div class="detail-box">
 					<h6>
-					+01 123567894
+					+380 (95) 2926716
 					</h6>
 				</div>
 				</div>
@@ -132,7 +129,7 @@
 				</div>
 				<div class="detail-box">
 					<h6>
-					demo@gmail
+					prikoldem@gmail.com
 					</h6>
 				</div>
 				</div>
@@ -141,20 +138,17 @@
 			<div class="col-md-3">
 			<div class="info_menu">
 				<h4>
-				Menu
+				Меню
 				</h4>
 				<ul class="navbar-nav  ">
 				<li class="nav-item active">
-					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="/"> Головна <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="about.html"> About </a>
+					<a class="nav-link" href="/about"> Про нас </a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="medicine.html"> Medicine </a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="buy.html"> Online Buy </a>
+					<a class="nav-link" href="/shop"> Каталог </a>
 				</li>
 				</ul>
 			</div>
@@ -162,13 +156,13 @@
 			<div class="col-md-6">
 			<div class="info_news">
 				<h4>
-				newsletter
+				Наші новини
 				</h4>
 				<form action="">
-				<input type="text" placeholder="Enter Your email">
+				<input type="text" placeholder="Ваш e-mail">
 				<div class="d-flex justify-content-center justify-content-end mt-3">
 					<button>
-					Subscribe
+					Підписатися
 					</button>
 				</div>
 				</form>
@@ -181,7 +175,7 @@
 	<footer id="footer">
 		<section class="container-fluid footer_section">
 			<p>
-			&copy; 2019 All Rights Reserved. Design by
+			&copy; 2023 Всі права збережені. Автор дизайну
 			<a href="https://html.design/">Free Html Templates</a>
 			</p>
 		</section>
