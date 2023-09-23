@@ -321,7 +321,7 @@
 				</section>	
 	 </div>
 
-	<section class="feature_section  layout_padding">
+	<section class="feature_section  layout_padding my_body2">
 		<div class="container">
 		<div class="feature_container">
 			<div class="box">
