@@ -49,26 +49,24 @@
 							<div class="row">
 								<div class="col-md-4">
 								<div class="img-box">
-									<img src="{{ asset('assets/images/medicine.png') }}" alt="">
+									<img src="{{ asset('assets/images/banner-1.png') }}" alt="">
 								</div>
 								</div>
 								<div class="col-md-8">
 								<div class="detail-box">
 									<h1>
-									Welcome To Our <br>
+									Ознайомтеся з<br>
 									<span>
-										Online Medicine
+									Нашими Новинами
 									</span>
 
 									</h1>
 									<p>
-									There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-									alteration in some form, by injected humour, or randomised words which don't look even slightly
-									believable.
+										Запрошуємо вас бути в курсі всіх наших актуальних новин та подій, ознайомившись з розділом "Новини" на нашому веб-сайті.
 									</p>
 									<div>
-									<a href="">
-										Buy Now
+									<a href="/news">
+									Перейти
 									</a>
 									</div>
 								</div>
@@ -81,26 +79,24 @@
 							<div class="row">
 								<div class="col-md-4">
 								<div class="img-box">
-									<img src="{{ asset('assets/images/medicine.png') }}" alt="">
+									<img src="{{ asset('assets/images/banner-1.png') }}" alt="">
 								</div>
 								</div>
 								<div class="col-md-8">
 								<div class="detail-box">
 									<h1>
-									Welcome To Our <br>
+									Завітайте до сторінки <br>
 									<span>
-										Online Medicine
+										Про нас
 									</span>
 
 									</h1>
 									<p>
-									There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-									alteration in some form, by injected humour, or randomised words which don't look even slightly
-									believable.
+									Запрошуємо вас докладніше ознайомитися з нашою сторінкою "Про нас", де ми розповідаємо більше про нашу команду та цінності.
 									</p>
 									<div>
-									<a href="">
-										Buy Now
+									<a href="/about">
+									Перейти
 									</a>
 									</div>
 								</div>
@@ -333,11 +329,11 @@
 
 						</h2>
 						<p>
-						It is a long established fact that a reader will be distracted by
+						Спеціальна знижка для вас!
 						</p>
 						<div>
 						<a href="/shop">
-							Buy Now
+							Купити зараз
 						</a>
 						</div>
 					</div>
