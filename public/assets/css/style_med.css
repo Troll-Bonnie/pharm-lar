@@ -4,6 +4,8 @@ body .my_body {
   background-color: #ffffff;
 }
 
+
+
 .my_body2{
   color: #000000;
   background-color: #ffffff;
@@ -264,6 +266,15 @@ a:focus {
 
 .slider_section .img-box img {
   width: 100%;
+}
+
+.my-banner-img{
+  width: 423px;
+  height: 403px;
+}
+
+.my-img{
+  border-radius: 5%;
 }
 
 .slider_section .detail-box h1 {
