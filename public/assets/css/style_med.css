@@ -371,6 +371,10 @@ a:focus {
   width: 45px;
 }
 
+.my-catalog-name {
+  font-size: 0.9em;
+}
+
 .feature_section .feature_container {
   display: -webkit-box;
   display: -ms-flexbox;

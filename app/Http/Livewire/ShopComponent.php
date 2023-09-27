@@ -48,12 +48,19 @@ class ShopComponent extends Component
         $categories = Category::all();
         $producers = Producer::all();
 
-
+        $products_1 = Product::where('category_id', 1)->orderBy('created_at', 'DESC')->paginate($this->pagesize);
+        $products_2 = Product::where('category_id', 2)->orderBy('created_at', 'DESC')->paginate($this->pagesize);
+        $products_3 = Product::where('category_id', 3)->orderBy('created_at', 'DESC')->paginate($this->pagesize);
+        $products_4 = Product::where('category_id', 4)->orderBy('created_at', 'DESC')->paginate($this->pagesize);
 
         return view('livewire.shop-component',[
             'products' => $products,
             'categories' => $categories,
             'producers' => $producers,
+            'products_1' => $products_1,
+            'products_2' => $products_2,
+            'products_3' => $products_3,
+            'products_4' => $products_4,
         ])->layout('layouts.base');
     }
 }
