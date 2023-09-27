@@ -17,7 +17,7 @@
 		</div>
 		<div class="detail-box">
 			<p>
-			{{$n->body}}
+			{{$n->description}}
 			</p>
 		</div>
 		</div>
